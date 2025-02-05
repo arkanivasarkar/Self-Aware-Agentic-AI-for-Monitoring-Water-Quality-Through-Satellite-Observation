@@ -1,6 +1,10 @@
-# NEMORRA: A Self Aware Agentic AI for Monitoring of Water Quality Through Satellite Observation
+# NEMORRA: A Self Aware Agentic AI for Monitoring of Water Quality Through Satellite Observation to Help Precision Farming
 
-This repository contains a prototype for Water Quality Monitoring Through Satellite Images using a Self Aware (Self Learning) Agentic AI. This prototype was developed during [The BeHappyFish Challenge](https://blogs.upm.es/the-be-happy-fish-challenge/).
+<p align="center">
+  <img src="https://github.com/arkanivasarkar/Self-Aware-Agentic-AI-for-Monitoring-Water-Quality-Through-Satellite-Observation/blob/main/resources/" alt="Image description" width="100%" height="100%">
+</p>
+
+This repository contains a prototype application for Water Quality Monitoring Through Satellite Images using a Self Aware (Self Learning) Agentic AI. This prototype was developed during [The BeHappyFish Challenge](https://blogs.upm.es/the-be-happy-fish-challenge/).
 
 &nbsp;
 &nbsp;
@@ -15,17 +19,28 @@ This repository contains a prototype for Water Quality Monitoring Through Satell
 
 
 ## Pain Points 
-- Targeting lessions accurately is difficult from 2D scans as they lack the 3D perception.
-- 
+- Unpredictable Water Conditions:  Sudden changes harm fish, requiring constant monitoring.
+- High Fish Mortality Rates:  Pollution and oxygen loss cause disease outbreaks.
+- Lack of Real-Time Monitoring: Manual testing is slow and reactive.
+- Complex & Costly Solutions: Advanced tools are expensive and hard to use for farmers.
+- Regulatory & Sustainability Challenges: Meeting environmental standards is tough without proper data.
 
 &nbsp;
 &nbsp;
 
 
 ## Our Proposed Solution
-We developed ...
-  
+We developed an agentic AI based system to continously monitor water quality through satellite images and perform certain actions based on its understanding of the data.
+The agentic AI can-
+- Track and monitor algal bloom, chlorophyll and dissolved oxygen levels using satellite images.
+- Inform the farmer in case the water quality goes bad.
+- Talk to the farmer and solve queries.
+- Suggest farmer measures to improve water quality querying a pre-developed vector database knowledge base of water quality management techniques.
+- Fetch weather information and locality information for detecting natural causes of degrading water quality in a water body.
+
+
+## System Design
 &nbsp;
 <p align="center">
-  <img src="https://github.com/arkanivasarkar/Self-Aware-Agentic-AI-for-Monitoring-Water-Quality-Through-Satellite-Observation/tree/main/resources" alt="Image description" width="100%" height="100%">
+  <img src="https://github.com/arkanivasarkar/Self-Aware-Agentic-AI-for-Monitoring-Water-Quality-Through-Satellite-Observation/blob/main/resources/Workflow_2.png" alt="Image description" width="100%" height="100%">
 </p>
