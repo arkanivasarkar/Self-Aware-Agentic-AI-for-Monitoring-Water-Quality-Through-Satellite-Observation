@@ -37,7 +37,10 @@ The agentic AI can-
 - Talk to the farmer and solve queries.
 - Suggest farmer measures to improve water quality querying a pre-developed knowledge base (vector database) of water quality management techniques.
 - Fetch weather information and locality information for detecting natural causes of degrading water quality in a water body.
-- Remember conversations and the fetched knowledge and add new informations in the existing knowledge base to increase generalizability with unseen data (self learning AI).
+- Remember conversations and the fetched knowledge and add new informations in the existing knowledge base to increase generalizability with unseen data (self aware/self learning AI).
+
+&nbsp;
+&nbsp;
 
 
 ## System Design
