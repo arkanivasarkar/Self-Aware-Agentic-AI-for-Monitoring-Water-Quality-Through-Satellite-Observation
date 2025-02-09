@@ -30,6 +30,11 @@ This repository contains a prototype application for Water Quality Monitoring Th
 
 
 ## Our Proposed Solution
+<p align="center">
+  <img src="https://github.com/arkanivasarkar/Self-Aware-Agentic-AI-for-Monitoring-Water-Quality-Through-Satellite-Observation/blob/main/resources/Workflow_2.png" alt="Image description" width="100%" height="100%">
+</p>
+&nbsp;
+
 We developed an agentic AI based system to continously monitor water quality through satellite images and perform certain actions based on its understanding of the data.
 The agentic AI can-
 - Track and monitor algal bloom, chlorophyll and dissolved oxygen levels using satellite images.
@@ -39,12 +44,4 @@ The agentic AI can-
 - Fetch weather information and locality information for detecting natural causes of degrading water quality in a water body.
 - Remember conversations and the fetched knowledge and add new informations in the existing knowledge base to increase generalizability with unseen data (self aware/self learning AI).
 
-&nbsp;
-&nbsp;
 
-
-## System Design
-&nbsp;
-<p align="center">
-  <img src="https://github.com/arkanivasarkar/Self-Aware-Agentic-AI-for-Monitoring-Water-Quality-Through-Satellite-Observation/blob/main/resources/Workflow_2.png" alt="Image description" width="100%" height="100%">
-</p>
