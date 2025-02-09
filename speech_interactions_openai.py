@@ -3,6 +3,7 @@ import numpy as np
 from transformers import pipeline, WhisperProcessor
 import pyttsx3
 
+
 # Load Whisper model with English language setting
 model_name = "openai/whisper-medium"
 processor = WhisperProcessor.from_pretrained(model_name)
@@ -10,6 +11,7 @@ forced_decoder_ids = processor.get_decoder_prompt_ids(language="en", task="trans
 
 pipe = pipeline("automatic-speech-recognition", model=model_name, 
             generate_kwargs={"language": "en", "forced_decoder_ids": forced_decoder_ids})
+
 
 # Recording settings
 FORMAT = pyaudio.paInt16
@@ -24,8 +26,6 @@ tts_engine.setProperty('rate', 150)  # Adjust speech speed
 
 
 def speech_to_text():
-    
-    # Initialize PyAudio
     audio = pyaudio.PyAudio()
 
     # Open stream for recording
@@ -55,8 +55,6 @@ def speech_to_text():
   
 
 def text_to_speech(text):
-    """Speak the text and stop the GIF after speaking."""
-     # Initialize text-to-speech engine
     tts_engine.say(text)
     tts_engine.runAndWait()  # This blocks execution until speaking is done
 

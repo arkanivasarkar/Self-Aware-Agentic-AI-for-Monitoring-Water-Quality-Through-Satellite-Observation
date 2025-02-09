@@ -11,8 +11,8 @@ import sys
 import os
 sys.path.append( os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from AIAgents.speech_interactions import text_to_speech, speech_to_text  # You can remove this if not used
-from AIAgents.ai_agent import web_search_agent, rewriter_agent
+from speech_interactions_openai import text_to_speech, speech_to_text  # You can remove this if not used
+from ai_agent import web_search_agent, rewriter_agent
 
 
 
@@ -142,6 +142,9 @@ class AgenticAIApp:
     def start_conversation(self):
         self.start_gif()
         text_to_speech('HI I am Nemora. I am your Agentic AI friend helping in sustainability.')
+
+
+        
         text_to_speech('I was going through my daily satellite data survey, and I noticed that you have degrading water quality in your fish farm.')
       
         output = self.process_agentic_ai_output(web_search_agent, "My satellite image analysis from SENTINEL dataset tell me that the water qaulity in my fish farm is going bad.Identify the reasons. Answer in a paragraph in brief.")
